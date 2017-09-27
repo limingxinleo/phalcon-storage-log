@@ -19,6 +19,8 @@ class LogSaveValidator extends Validator
         $this->add(
             [
                 'module',
+                'prefix',
+                'file',
                 'data',
                 'time',
             ],
